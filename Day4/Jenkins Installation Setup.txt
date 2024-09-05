@@ -1,0 +1,36 @@
+                                  How TO INSTALL JENKINS ON WINDOWS
+
+prerequistie:
+        -> must have java in your system os.only supports java 11,17,21(jenkins is build in java, in order to use jenkins we must have JRE and JVM)
+		-> Good internet connectivity
+		
+		   
+Steps to be follow:
+                * Open your browser
+		* Search "Jenkins" in search bar and enter.
+		* click the first line with the link jenkins.io.
+		* After landing the page,you will see download option in the top right corner.
+		* click and Scroll down,you will see jenkins (.war) file for different os.
+		* select windows if you are using windows.
+		* once click the windows the file gets download.
+		* open that file installer.
+		
+ In Jenkins Setup:
+                * Click "next".
+		* select destination folder and click "next".
+		* in the logon type select as "local system".
+		* you will see port number and click Test port after that click "Next";
+		* select "JDK path" and click "Next".
+		* again click "Next" and press "install".
+		* give user access control and click "Finish".
+		
+ In Browser:
+                * Go back to download page and click"http://localhost:8080/".\
+		* You will land in admin password page. go to above directory to get initial admin password.
+		* copy and past the password and click"Continue".
+		* install suggested jenkins plugins.
+		* fill the form and click "continue"
+		* Click"Save and finish" in the next page.
+		* Then jenkins has been successfully installed on your system.
+		
+		
