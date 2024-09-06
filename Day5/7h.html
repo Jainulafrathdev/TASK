@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      console.log(convertLength(50,'miles','km'));
+      console.log(convertLength(32,'km','miles'));
+      console.log(convertLength(50,'km','km'));
+      console.log(convertLength(5,'miles','km'));
+      console.log(convertLength(5,'miles','ft'));
+      console.log(convertLength(5,'km','ft'));
+
+      function convertLength(length,from,to){
+          if(from ==='miles' && to ==='km'){
+          const KiloMeter=(length*1.6);
+          return `${KiloMeter}km`;
+      }
+          else if(from ==='km' && to ==='miles'){
+          const miles=(length/1.6);
+          return `${miles}miles`;
+    }     else if(from===to){
+          return `${length} ${to}`;}
+          else if(from==='miles' && to==='ft'){
+            return `${length*5280}ft`
+          }else if(from==='km' && to==='ft'){
+            return `${length*3281}ft`;
+
+          }
+          
+         }
+      </script>
+  </body>
+</html>
