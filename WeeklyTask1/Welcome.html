@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function logout() {
+      // Clear local storage
+      localStorage.clear();
+      // Clear session storage
+      sessionStorage.clear();
+      // Optionally, redirect the user to a login page or home page
+      window.location.href = "main.html"; // Change to your desired location
+    }
+  </script>
+</head>
+<body>
+  <p>Login Successfully</p>
+  <button onclick="logout()">LOGOUT</button>
+</body>
+</html>
