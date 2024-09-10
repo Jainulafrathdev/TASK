@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+</head>
+<body>
+  <input placeholder="Name"  class="input-value" onkeydown="
+    if(event.key==='Enter'){
+      updateInputValue();
+    }
+    ">
+  <button onclick="
+  updateInputValue();
+  ">submit</button>
+  <p class="para-field"></p>
+  <script>
+    function updateInputValue(){
+      const textFromInput=document.querySelector('.input-value');
+     document.querySelector('.para-field').innerHTML=`your name is ${textFromInput.value}`
+    }
+  </script>
+</body>
+</html>

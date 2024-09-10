@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+</head>
+<body>
+  <input placeholder="Name"  class="input-value" onkeydown="
+    if(event.key==='Enter'){
+      const textFromInput=document.querySelector('.input-value');
+      document.querySelector('.para-field').innerHTML=`your name is ${textFromInput.value}`
+    }
+    ">
+  <button onclick="
+  const textFromInput=document.querySelector('.input-value');
+     document.querySelector('.para-field').innerHTML=`your name is ${textFromInput.value}`
+  ">submit</button>
+  <p class="para-field"></p>
+  
+</body>
+</html>
