@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .button-btn{
+        background-color: rgb(230, 230, 230);
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .is-toggled{
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button-btn js1-btn" onclick="
+       const button= document.querySelector('.js1-btn');
+       if(!button.classList.contains('is-toggled')){
+        button.classList.add('is-toggled');
+       }else{
+        button.classList.remove('is-toggled');
+       }
+      ">Gaming</button>
+
+       <button class="button-btn js2-btn" onclick="
+       const btnNasheed= document.querySelector('.js2-btn');
+      if(!btnNasheed.classList.contains('is-toggled')){
+        btnNasheed.classList.add('is-toggled');
+       }else{
+        btnNasheed.classList.remove('is-toggled');
+       }
+      ">Nasheed</button>
+
+      <button class="button-btn js3-btn" onclick="
+      const btntech= document.querySelector('.js3-btn');
+      if(!btntech.classList.contains('is-toggled')){
+        btntech.classList.add('is-toggled');
+      }else{
+        btntech.classList.remove('is-toggled');
+      }
+      ">tech</button> 
+ </body>
+</html>

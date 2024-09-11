@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Calculator
+    </title>
+    <style>
+      .body-tag{
+        background-color: black;
+      }
+      .para-tag{
+        color: white;
+        font-size: 50px;
+      }
+      .numbers{
+        background-color: rgb(51, 51, 51);
+        color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 60px;
+        border: none;
+        font-size: 26px;
+        cursor: pointer;
+        margin-right: 5px;
+        margin-top: 10px;
+        }
+          
+        .clear-btn{
+          font-size: medium;
+        }
+        .corner-btn{
+          background-color: rgb(254, 160, 10);
+        }
+      
+    </style>
+  </head>
+  <body class="body-tag">
+    <p class="para-tag"></p>
+    <button class="numbers" onclick="
+    updateCalculation('1');
+      ">1</button>
+      
+    <button class="numbers" onclick="
+    updateCalculation('2');
+    ">2</button>
+
+    <button class="numbers" onclick="
+    updateCalculation('3');
+    ">3</button>
+
+    <button class="numbers corner-btn" onclick="
+   updateCalculation('+');
+    ">+</button>
+
+    <p>
+      <button class="numbers" onclick="
+      updateCalculation('4');
+      ">4</button>
+      <button class="numbers" onclick="
+     updateCalculation('5');
+      ">5</button>
+      <button class="numbers" onclick="
+      updateCalculation('6');
+      ">6</button>
+      <button class="numbers corner-btn" onclick="
+      updateCalculation('-');
+      ">-</button>
+    </p>
+    <p>
+      <button  class="numbers"onclick="
+     updateCalculation('7');
+      ">7</button>
+      <button class="numbers" onclick="
+      updateCalculation('8');
+      ">8</button>
+      <button class="numbers" onclick="
+      updateCalculation('9');
+      ">9</button>
+      <button class="numbers corner-btn" onclick="
+      updateCalculation('*');
+      ">*</button>
+    </p>
+    <p>
+      <button class="numbers" onclick="
+      updateCalculation('0');
+      ">0</button>
+
+      <button class="numbers" onclick="
+      updateCalculation('.');
+      ">.</button>
+
+      <button class="numbers" onclick="
+      calculation = eval(calculation);
+      displayCalculation();
+      localStorage.setItem('calculation', calculation);
+      ">=</button>
+
+      <button class="numbers corner-btn" onclick="
+      updateCalculation('/');
+      ">/</button>
+     
+     <p>
+       <button class="numbers clear-btn" onclick="
+       calculation=0;
+       displayCalculation();
+      ">Clear</button>
+    </p>
+
+    
+    <script>
+      let calculation=(localStorage.getItem('calculation') || ' ');
+      displayCalculation();
+      
+      function updateCalculation(operation){
+      calculation+=operation;
+      displayCalculation();
+      localStorage.setItem('calculation', calculation);
+      }  
+
+      function displayCalculation(){
+        document.querySelector('.para-tag').innerHTML=calculation;
+      }
+
+     
+    </script>
+  </body>
+</html>

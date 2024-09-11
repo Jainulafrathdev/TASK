@@ -1,0 +1,26 @@
+.body-tag{
+  background-color: black;
+}
+.para-tag{
+  color: white;
+  font-size: 50px;
+}
+.numbers{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 10px;
+  }
+    
+  .clear-btn{
+    font-size: medium;
+  }
+  .corner-btn{
+    background-color: rgb(254, 160, 10);
+  }
