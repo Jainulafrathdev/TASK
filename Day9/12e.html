@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+   <button onclick="
+    addedText();
+     ">
+      Add to cart
+    </button>
+    <p class="js-para-tag"></p>
+    <script>
+    function addedText(){
+      setTimeout(function(){
+    document.querySelector('.js-para-tag').innerHTML
+      ='Added';
+      },1000)
+      setTimeout(function(){
+    document.querySelector('.js-para-tag').innerHTML
+      =' ';
+      },2000);
+    }
+    </script>
+  </body>
+</html>
