@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+   <button  class= "js-added-button">
+      Add to cart
+    </button>
+    <p class="js-para-tag"></p>
+    <script>
+
+      document.querySelector('.js-added-button').addEventListener('click',()=>{
+        let timeoutId;
+      document.querySelector('.js-para-tag').innerHTML
+      ='Added';
+      clearTimeout(timeoutId);
+      timeoutId=setTimeout(function(){
+      document.querySelector('.js-para-tag').innerHTML
+      =' ';
+      },2000);
+      });
+    </script>
+  </body>
+</html>
