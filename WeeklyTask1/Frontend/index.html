@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZanGroups Login</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="./img/logo.png" alt="ZanGroups Logo" class="logo"  style="size: 150px;">
+          </div>
+          <div class="right-column" style="color: white;">
+            <h2>Login</h2>
+            <form id="loginForm" action="/login" method="POST">
+              <div id="errorMessage" class="error-message" style="margin-bottom: 2%;"></div>
+              <div class="form-group">
+                    <label for="username">Username/Email:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <div class="password-field">
+                        <input type="password" id="password" name="password" required autocomplete="off">
+                        <button type="button" id="togglePassword" style="font-weight: bold;">Show</button>
+                    </div>
+                </div>  
+                 <div class="form-group remember-me" style="display: flex ; ">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe" style="margin-left:8px; margin-top: 2%;">Remember Me</lbel>
+                </div> 
+                <div id="loader" class="loader" style="display: none;"></div>
+                <!-- <div id="loading" class="loading">Loading...</div> -->
+                <button type="submit" id="loginButton" disabled >Login</button>
+                <a href="#" id="forgotPassword">Forgot Password?</a>
+                <div class="social-login">
+                    <button type="button" id="loginGoogle">Login with Google</button>
+                    <button type="button" id="loginFacebook">Login with Facebook</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

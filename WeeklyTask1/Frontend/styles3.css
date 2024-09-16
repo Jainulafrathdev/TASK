@@ -1,0 +1,147 @@
+/* Resetting some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for centering the form */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* Static gradient background */
+}
+
+/* Styling the columns */
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-column {
+  flex: 1;
+  text-align: center;
+}
+
+.right-column {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling form elements */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #0072ff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.social-login button {
+  width: 48%;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.social-login button#loginGoogle {
+  background: #db4437;
+  color: #fff;
+}
+
+.social-login button#loginFacebook {
+  background: #3b5998;
+  color: #fff;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: #0072ff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Password visibility toggle */
+.password-field {
+  display: flex;
+  align-items: center;
+}
+
+#togglePassword {
+  background: none;
+  border: none;
+  color: #0072ff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}

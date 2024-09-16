@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const User = require('./userModel');
+const User = require('./newModel');
 
 // Initialize Express
 console.log('Starting Express...');
@@ -10,11 +10,14 @@ const app = express();
 // Middleware setup
 app.use(bodyParser.json());
 
+// Serve static files from the public folder
+app.use(express.static('../Frontend'));
+
+
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/TestDB', {
-    useNewUrlParser: true, // Optional, for compatibility
-    useUnifiedTopology: true // Optional, for compatibility
+mongoose.connect('mongodb://localhost:27017/loginDB', {
+  
 })
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('Failed to connect to MongoDB', err));
