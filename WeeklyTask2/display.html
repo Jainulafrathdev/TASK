@@ -34,10 +34,9 @@
 <body>
     <header>Display Image</header>
     <img id="displayedImage" src="" alt="Captured Image">
-    <button onclick="window.location.href='index.html'">Capture Another Image</button>
+    <button onclick="window.location.href='index.html'">Back</button>
 
     <script>
-        // Retrieve the image from session storage and display it
         const imageData = sessionStorage.getItem('capturedImage');
         if (imageData) {
             document.getElementById('displayedImage').src = imageData;

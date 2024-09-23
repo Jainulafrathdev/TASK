@@ -32,15 +32,12 @@
       color: white;
       border-radius: 5px;
       cursor: pointer;
-      
-    }
+   }
     .imageInput{
       font-weight: bold;
       color: red;
       font-size: 30px;
-   
-
-    }
+   }
    
   </style>
 </head>
@@ -56,15 +53,27 @@
     document.getElementById('imageInput').addEventListener('change', (event) => {
       const imageFile = event.target.files[0];
       if (imageFile) {
-        const reader = new FileReader();
-        reader.onloadend = function () {
-          sessionStorage.setItem('capturedImage', reader.result);
-          window.location.href = 'display.html';
-        }
-        reader.readAsDataURL(imageFile);
-      }
-    });
-  </script>
-</body>
+                const validImageTypes = ['image/jpeg', 'image/png'];
+                const maxSizeInMB = 3;
+                const maxSizeInBytes = maxSizeInMB * 1024 * 1024; 
 
+                if (!validImageTypes.includes(imageFile.type)) {
+                    alert('Please upload a valid image file (.png or .jpeg)');
+                    return;
+                }
+                if (imageFile.size > maxSizeInBytes) {
+                    alert('The image file must be smaller than 3MB');
+                    return;
+                }
+
+                const reader = new FileReader();
+                reader.onloadend = function () {
+                  sessionStorage.setItem('capturedImage', reader.result);
+                  window.location.href = 'display.html';
+                }
+                reader.readAsDataURL(imageFile);
+              }
+          });
+     </script>
+  </body>
 </html>
