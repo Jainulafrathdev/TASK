@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Image</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 100%;
+            max-height: 80vh;
+            margin-top: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Display Image</header>
+    <img id="displayedImage" src="" alt="Captured Image">
+    <button onclick="window.location.href='index.html'">Capture Another Image</button>
+
+    <script>
+        // Retrieve the image from session storage and display it
+        const imageData = sessionStorage.getItem('capturedImage');
+        if (imageData) {
+            document.getElementById('displayedImage').src = imageData;
+        } else {
+            document.getElementById('displayedImage').alt = "No image captured.";
+        }
+    </script>
+</body>
+</html>
