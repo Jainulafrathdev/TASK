@@ -1,0 +1,109 @@
+Criteria To Be A Halal Stocks:
+
+1.Nature of the business(To check what the company does)
+  
+   Alcohol: Companies that produce, sell, or promote alcohol.
+   
+   Gambling: Businesses related to casinos, betting, or lotteries.
+   
+   Pork products: Companies that sell or process pork.
+   
+   Interest-based financial services: Banks or financial institutions that operate primarily on interest (riba).
+   
+   Entertainment sectors: Adult entertainment or anything that is considered immoral or unethical.
+   
+   Weapons and defense: Some scholars argue that involvement in arms manufacturing for conflict purposes may be haram.
+   
+   
+   => If the stock from above criteria is HARAM(forbidden) stock
+  
+  
+2.Financial Practices (Avoid Interest and Excessive Debt)
+
+   Interest (Riba):If company recieves  significant part of income as interest,then it is not halal
+   
+   Debt levels (Gearing ratio):If a company has too much debt compared to its assets or equity,may not 
+                               be considered as halal Some scholars allows debt ratio <33%
+							   
+3.Shariah Screening Process
+
+    Islamic organizations, like AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) and 
+  
+    Dow Jones Islamic Market Index (DJIMI), have developed screening processes to determine which stocks are halal. 
+    This screening process typically involves two steps:
+
+    a. Sector Screening: To check the nature of the business
+ 
+
+    b. Financial Screening: Once a company passes the sector screening,
+                          it must also pass financial screening which is to check the involving of interest and debt levels.
+                    
+    c. Income from non-permissible activities: If a company earns a small part of its income from haram activities, 
+     some scholars allow investing below certain threshold of 5%
+     Investors are required to "purify" their earnings by donating the haram portion to charity.							   
+
+4.Shariah-Compliant Stock Indexes
+
+    Some organizations provide a list of stocks that meet Shariah standards. 
+	These indexes make it easier for Muslims to invest in halal companies. 
+	
+	Examples include:
+
+    Dow Jones Islamic Market Index (DJIMI)
+    MSCI Islamic Indexes
+    These indexes only include companies that pass both the business and financial screenings based on Shariah rules.
+
+
+
+
+
+    Islamic organization that provides standards and guidelines for accounting and auditing of halal stocks and
+    other Islamic financial products.    
+		
+		
+	GLOBAL ORGANIZATION => AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions)
+	
+    * AAOIFI is the leading global organization responsible for setting standards on accounting, auditing, 
+	governance, and Shariah compliance for Islamic financial institutions, including halal stocks.
+	
+	
+	INDIAN ORGANIZATION =>Taqwaa Advisory and Shariah Investment Solutions (TASIS)
+	
+	* TASIS is one of India’s leading Shariah advisory firms, providing guidance on Shariah-compliant investments,
+	including halal stocks.
+	
+    * They perform Shariah screening of stocks listed on Indian exchanges, ensuring compliance with 
+    Islamic principles. TASIS evaluates the business activities and financial ratios of companies to determine
+    if they are halal.
+	
+    TASIS also collaborates with BSE (Bombay Stock Exchange) to create Shariah-compliant indices like the 
+	S&P BSE
+	TASIS Shariah 50 
+    which tracks halal stocks in India.
+  
+	
+    
+		
+    The National Stock Exchange of India (NSE) has partnered with Shariah advisory firm Path Solutions to launch 
+	Shariah-compliant indices. However, it is the Nifty Shariah indices that are most widely recognized. These indices 
+	include the Nifty 50 Shariah Index and the Nifty 500 Shariah Index, which provide 
+	a list of Shariah-compliant stocks for investors in the Indian market.
+		
+		
+    CERTIFICATE PROCEDURE :
+	
+	        1.Start of certification process
+			2.proposal for the assignment
+			3.Agreement
+			4.Discussion on Specifications
+			5.finalization of specifications
+			6.Approval of Specifications from shariah board
+			7.initial certification
+			8.shariah audit
+			9.compliance with audit requirements
+			10.regular certification
+		
+		
+		
+		
+		

@@ -1,0 +1,151 @@
+
+
+
+
+                                   GOOGLE APP ENGINE
+								  
+							
+  * A platform-as-a-service (PaaS) that focuses on simplicity and scalability. GAE allows developers to build, deploy,  
+    and scale applications without managing the underlying infrastructure.
+  
+  
+  * Scalability  - GAE automatically scales your application based on traffic, so you only pay for the resources you use
+
+  * Google App Engine (also referred to as GAE or App Engine) is a cloud computing platform 
+    used as a service for developing and hosting web applications.
+	
+  * Applications are sandboxed(a sandbox is a security mechanism for separating running programs,
+    usually in an effort to mitigate system failures and/or software vulnerabilities from spreading) 
+	and run across multiple Google-managed servers.
+	
+  * GAE supports automatic scaling for web applications, allocating more resources to the web application as the amount of 
+    requests increases.
+   
+  * It was released as a preview in April 2008 and launched officially in September 2011.
+	
+   Launguage Support:
+   
+  * Applications written in Go, PHP, Java, Python, Node.js, .NET, and Ruby are supported by the App Engine, and
+    other languages can be supported at an additional cost.
+	
+  * The free version of the service offers a standard environment with limited resources. 
+    Fees are charged for additional storage, bandwidth, or instance hours.
+	
+  * App Engine's integrated Google Cloud Datastore database has a SQL-like syntax called "GQL" (Google Query Language).
+    GQL does not support the join statement.[10] Instead, one-to-many and many-to-many relationships can be accomplished 
+	using ReferenceProperty()
+	
+  * Google Cloud Firestore is the successor to Google Cloud Datastore and replaces GQL with a document-based query method that treats stored objects as collections of documents.
+    Firestore was launched in October 2017.
+	
+  * in 2011,Google announced App Engine Backends, which were allowed to run continuously and consume more memory.
+  
+  * The Backend API was deprecated as of March 13, 2014, in favor of the Modules API.
+  
+  App Engine environment:
+   
+  *  App Engine flexible environment
+  *  App Engine standard environment
+
+  *  The standard environment is optimal for applications with the following characteristics:
+
+     Intended to run for free or at very low cost, where you pay only for what you need and when you need it.
+	 For example, your application can scale to 0 instances when there is no traffic.
+     Experiences sudden and extreme spikes of traffic which require immediate scaling.  
+	 
+  *  The flexible environment is optimal for applications with the following characteristics:
+
+     Runs in a Docker container that includes a custom runtime or source code written in other programming languages.
+     Uses or depends on frameworks that include native code.
+     Accesses the resources or services of your Google Cloud project that reside in the Compute Engine network.
+	 
+	 
+	 Key Features of Google App Engine
+	 
+	 
+  *  Automatic Scaling:
+
+    App Engine automatically scales applications in response to traffic, meaning it can handle a sudden increase 
+	in requests without manual intervention.
+	
+    This auto-scaling feature supports everything from small hobby projects to large-scale applications that serve millions
+	of users.
+ 
+  *  Multiple Programming Language Support:
+
+     App Engine supports a variety of programming languages like Python, Java, Node.js, PHP, Ruby, Go, and .NET.
+     
+	 It also allows developers to use custom runtimes if the language they want isn't natively supported.
+	 
+  *  Managed Infrastructure:
+	 
+     Google App Engine handles infrastructure tasks such as provisioning, monitoring, and load balancing, 
+     which reduces the need for manual server maintenance.
+	 
+     You don’t need to manage servers, virtual machines, or operating systems directly.
+	 
+  *  Built-In Services: 
+
+     App Engine provides access to many built-in Google Cloud services, including databases,
+	 authentication systems, logging, storage options, and more.
+	 
+     Services like Cloud Datastore (NoSQL), Cloud SQL (relational database), and 
+	 Cloud Storage can be integrated seamlessly into applications.
+	 
+  *  Pay-as-You-Go Pricing:
+  
+     based on the usage ( free tier  also available for low resource application)
+	 
+  *  Built-In Security and Compliance:
+
+     App Engine includes built-in security features, automatic updates, and protections against threats.
+	 
+     It’s certified to comply with major security standards like ISO/IEC 27001 and SOC 1, 2, and 3.
+
+  *  Benefits of Using Google App Engine
+  
+     Simplified Development: 
+	                         
+							 Since App Engine manages infrastructure, developers can focus more on application development
+     rather than on backend and infrastructure management.
+	 
+     Reliability and Performance:
+    
+                               	Google Cloud’s underlying infrastructure ensures high availability, fast response times, 
+     and robust support for global applications.
+	 
+     Seamless Integration with Google Cloud: 
+	                                        It’s part of Google Cloud, meaning it integrates easily with other GCP services,
+     making it useful for building complex applications that may need  additional resources like machine learning, data 
+	 storage, or analytics tools.
+
+
+
+   *  When to Use Google App Engine
+   
+   App Engine is ideal for:
+
+      Web applications and backend APIs that need to scale automatically.
+      Applications where you want to minimize infrastructure management.
+      Startups, small businesses, and individual developers who need a scalable and cost-effective platform.
+      Prototypes or development environments where you want rapid setup and minimal overhead.
+	  
+      In short, Google App Engine is designed to make web application and service deployment fast and straightforward,
+      with powerful scaling and minimal infrastructure overhead.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
